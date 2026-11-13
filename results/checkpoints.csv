@@ -1,0 +1,4 @@
+scenario,fail_rate,dp_cost,dp_checkpoints,best_fixed_step,best_fixed_cost,fixed_48_cost,gain_vs_best_fixed_%,dp_not_worse
+штатний,0.005,90549,6,201,90587,214943,0.04,True
+деградований,0.055,300308,18,67,300794,316368,0.16,True
+аварійний,0.1767,541256,33,40,544440,563169,0.58,True
