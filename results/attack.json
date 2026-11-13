@@ -1,0 +1,66 @@
+{
+  "weak_cipher": "побайтовий Віженер, ключ 6 байтів",
+  "key_recovery": [
+    {
+      "seed": 1,
+      "ga_found_key": true,
+      "ga_fitness": -3.002981315652272,
+      "random_fitness": -7.245569833195545,
+      "evals": 5740
+    },
+    {
+      "seed": 2,
+      "ga_found_key": true,
+      "ga_fitness": -3.002981315652272,
+      "random_fitness": -6.999573193180208,
+      "evals": 5740
+    },
+    {
+      "seed": 3,
+      "ga_found_key": true,
+      "ga_fitness": -3.002981315652272,
+      "random_fitness": -6.887456716471449,
+      "evals": 5740
+    },
+    {
+      "seed": 4,
+      "ga_found_key": true,
+      "ga_fitness": -3.002981315652272,
+      "random_fitness": -6.711798176587088,
+      "evals": 5740
+    },
+    {
+      "seed": 5,
+      "ga_found_key": true,
+      "ga_fitness": -3.002981315652272,
+      "random_fitness": -6.930009827802868,
+      "evals": 5740
+    },
+    {
+      "seed": 6,
+      "ga_found_key": true,
+      "ga_fitness": -3.002981315652272,
+      "random_fitness": -7.063378343733171,
+      "evals": 5740
+    },
+    {
+      "seed": 7,
+      "ga_found_key": true,
+      "ga_fitness": -3.002981315652272,
+      "random_fitness": -7.225642019880947,
+      "evals": 5740
+    },
+    {
+      "seed": 8,
+      "ga_found_key": false,
+      "ga_fitness": -3.7685242104708143,
+      "random_fitness": -7.639311794381201,
+      "evals": 5740
+    }
+  ],
+  "ga_success_rate": 0.875,
+  "tamper": {
+    "modified": 500,
+    "rejected_by_hmac": 500
+  }
+}
