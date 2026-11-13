@@ -1,0 +1,4 @@
+order,bytes
+raw (без стиснення),19200
+compress -> encrypt,11920
+encrypt -> compress,19712
