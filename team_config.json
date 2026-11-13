@@ -1,0 +1,138 @@
+{
+  "команда": "T01",
+  "seed": 3001,
+  "версія_формату": 1,
+  "пароль_сеансу": "algo2026",
+  "метрика_Q": {
+    "alpha": 0.35,
+    "beta": 0.5,
+    "gamma": 0.15,
+    "t_ref_секунд": 30.0,
+    "формула": "Q = a*S + b*R + g*T; S = B_ref/(B_ref+B_stored), B_stored = 8*global_used_bytes, T = t_ref/(t_ref+t)"
+  },
+  "реплікація": {
+    "replication_window_records": 48,
+    "max_batch_bytes": 1024,
+    "replication_budget_bits": 5000,
+    "коментар_бюджету": "replication_budget_bits — бюджет ДП в одному вікні; глобальний байтовий бюджет задає global_replication_budget_bytes сценарію",
+    "second_copy_factor": 1.55,
+    "third_copy_factor": 1.85,
+    "коментар_факторів": "кумулятивні: u(2)=v*1.55, u(3)=v*1.85",
+    "class_table_у_задачі": 0,
+    "seed_моделі_реплікації": 427243,
+    "коментар_seed": "відкритий seed для налагодження; офіційний Q рахується на прихованих seeds",
+    "сценарії": {
+      "штатний": {
+        "global_replication_budget_bytes": 42182,
+        "вузли": {
+          "A": {
+            "capacity_bytes": 42182,
+            "failure_probability": 0.0,
+            "mean_failure_burst": 1,
+            "reliability_weight": 1.0
+          },
+          "B": {
+            "capacity_bytes": 42182,
+            "failure_probability": 0.005,
+            "mean_failure_burst": 1,
+            "reliability_weight": 0.995
+          },
+          "C": {
+            "capacity_bytes": 42182,
+            "failure_probability": 0.01,
+            "mean_failure_burst": 1,
+            "reliability_weight": 0.99
+          }
+        }
+      },
+      "деградований": {
+        "global_replication_budget_bytes": 28761,
+        "вузли": {
+          "A": {
+            "capacity_bytes": 23008,
+            "failure_probability": 0.04,
+            "mean_failure_burst": 1.5,
+            "reliability_weight": 0.96
+          },
+          "B": {
+            "capacity_bytes": 23008,
+            "failure_probability": 0.055,
+            "mean_failure_burst": 1.5,
+            "reliability_weight": 0.945
+          },
+          "C": {
+            "capacity_bytes": 23008,
+            "failure_probability": 0.07,
+            "mean_failure_burst": 1.5,
+            "reliability_weight": 0.93
+          }
+        }
+      },
+      "аварійний": {
+        "global_replication_budget_bytes": 20132,
+        "вузли": {
+          "A": {
+            "capacity_bytes": 12079,
+            "failure_probability": 0.15,
+            "mean_failure_burst": 2,
+            "reliability_weight": 0.85
+          },
+          "B": {
+            "capacity_bytes": 12079,
+            "failure_probability": 0.18,
+            "mean_failure_burst": 3,
+            "reliability_weight": 0.82
+          },
+          "C": {
+            "capacity_bytes": 12079,
+            "failure_probability": 0.2,
+            "mean_failure_burst": 4,
+            "reliability_weight": 0.8
+          }
+        }
+      }
+    }
+  },
+  "пріоритети_класів": {
+    "штатна подія": 1,
+    "аномальна подія": 5,
+    "перехід до інциденту": 4
+  },
+  "critical_bonus": 5,
+  "пороги_втрати_критичних_подій": {
+    "штатний": 0.0,
+    "деградований": 0.1,
+    "аварійний": 0.45
+  },
+  "ліміт_часу_повного_прогону_секунд": 180,
+  "класифікатор": {
+    "F1_min": 0.56,
+    "класи": {
+      "0": "штатна подія",
+      "1": "аномальна подія",
+      "2": "перехід до інциденту"
+    },
+    "базова_лінія_мажоритарний_клас": 0.293,
+    "базова_лінія_випадковий_вибір": 0.3119,
+    "мінімальні_часові_ознаки": [
+      "інтервал до попередньої події",
+      "кількість подій у ковзному вікні часу",
+      "кількість змін category у вікні",
+      "кількість різних source_id у вікні",
+      "частка пар подій із сусідніми event_code у вікні",
+      "зміна metric_value відносно попередньої події того самого джерела",
+      "severity"
+    ],
+    "протокол_навчання": {
+      "розбиття": "train.csv для навчання, valid.csv для вибору моделі",
+      "ініціалізацій": 3,
+      "вибір_моделі": "за macro-F1 на valid.csv",
+      "оцінка": "підсумковий macro-F1 рахує викладач на прихованому holdout"
+    }
+  },
+  "довідково": {
+    "записів_у_сеансі": 1200,
+    "вікон": 25,
+    "одна_копія_журналу_байт": 19174
+  }
+}
