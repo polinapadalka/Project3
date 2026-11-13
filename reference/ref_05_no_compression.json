@@ -1,0 +1,335 @@
+{
+  "опис": "Режим NO_COMPRESSION, сирі байти.",
+  "довжина_репліки": 601,
+  "довжина_шифротексту": 526,
+  "пароль": "algo2026",
+  "salt_hex": "000102030405060708090a0b0c0d0e0f",
+  "nonce_hex": "010203040506070800000004",
+  "flags": 8,
+  "record_count": 32,
+  "таблиця_кодів": [],
+  "bitstream_hex": "0000055d006a007a00000d650f010103000005dd006a00d600000d8f0f01000100000619006a007100000d8a0f0000030000065e006a006b00000d9d0f010001000006b3006a009c00000d8a0f0000000000070b006a010200000d990f01000000000767006a00f200000d880f010001000007ad006a009e00000d6e0f020002000007ef006a00f000000d7f0f0000030000086b006a00ad00000d860b010001000008c3006500f600000b6e0b000100000009000065008d00000b9c0b0100030000094f0065008f00000b980b01000000000991006f00d0000011730b01000300000a22006f007a0000116b0b00000200000ab000660103000004760b00000200000ae7006600b9000004960b02000200000b68006700b800000ac60b01000300000be20067007a00000b140b01000200000c2f006700ab00000b220b00000300000cb5006700a800000ae50b00010300000d33006700ed00000ad40b01000200000da7006700ed00000aeb0b00000200000e28006700d700000ad90b01000300000e750067009000000ada0b00000100000ed1006600d7000004b10b02000300000f62006600a9000004aa0b02000100000fe4006600c0000004c00b000003000010600066008e000004c40b000003000010e200660070000004a00b0000020000114b0066007e000004c30b020101000011ab00660095000004850b000000",
+  "class_table": null,
+  "записи": [
+    {
+      "timestamp_ms": 1373,
+      "source_id": 106,
+      "event_code": 122,
+      "metric_value": 3429,
+      "category": 15,
+      "severity": 1,
+      "critical": 1,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 1501,
+      "source_id": 106,
+      "event_code": 214,
+      "metric_value": 3471,
+      "category": 15,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 1
+    },
+    {
+      "timestamp_ms": 1561,
+      "source_id": 106,
+      "event_code": 113,
+      "metric_value": 3466,
+      "category": 15,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 1630,
+      "source_id": 106,
+      "event_code": 107,
+      "metric_value": 3485,
+      "category": 15,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 1
+    },
+    {
+      "timestamp_ms": 1715,
+      "source_id": 106,
+      "event_code": 156,
+      "metric_value": 3466,
+      "category": 15,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 0
+    },
+    {
+      "timestamp_ms": 1803,
+      "source_id": 106,
+      "event_code": 258,
+      "metric_value": 3481,
+      "category": 15,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 0
+    },
+    {
+      "timestamp_ms": 1895,
+      "source_id": 106,
+      "event_code": 242,
+      "metric_value": 3464,
+      "category": 15,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 1
+    },
+    {
+      "timestamp_ms": 1965,
+      "source_id": 106,
+      "event_code": 158,
+      "metric_value": 3438,
+      "category": 15,
+      "severity": 2,
+      "critical": 0,
+      "record_flags": 2
+    },
+    {
+      "timestamp_ms": 2031,
+      "source_id": 106,
+      "event_code": 240,
+      "metric_value": 3455,
+      "category": 15,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 2155,
+      "source_id": 106,
+      "event_code": 173,
+      "metric_value": 3462,
+      "category": 11,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 1
+    },
+    {
+      "timestamp_ms": 2243,
+      "source_id": 101,
+      "event_code": 246,
+      "metric_value": 2926,
+      "category": 11,
+      "severity": 0,
+      "critical": 1,
+      "record_flags": 0
+    },
+    {
+      "timestamp_ms": 2304,
+      "source_id": 101,
+      "event_code": 141,
+      "metric_value": 2972,
+      "category": 11,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 2383,
+      "source_id": 101,
+      "event_code": 143,
+      "metric_value": 2968,
+      "category": 11,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 0
+    },
+    {
+      "timestamp_ms": 2449,
+      "source_id": 111,
+      "event_code": 208,
+      "metric_value": 4467,
+      "category": 11,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 2594,
+      "source_id": 111,
+      "event_code": 122,
+      "metric_value": 4459,
+      "category": 11,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 2
+    },
+    {
+      "timestamp_ms": 2736,
+      "source_id": 102,
+      "event_code": 259,
+      "metric_value": 1142,
+      "category": 11,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 2
+    },
+    {
+      "timestamp_ms": 2791,
+      "source_id": 102,
+      "event_code": 185,
+      "metric_value": 1174,
+      "category": 11,
+      "severity": 2,
+      "critical": 0,
+      "record_flags": 2
+    },
+    {
+      "timestamp_ms": 2920,
+      "source_id": 103,
+      "event_code": 184,
+      "metric_value": 2758,
+      "category": 11,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 3042,
+      "source_id": 103,
+      "event_code": 122,
+      "metric_value": 2836,
+      "category": 11,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 2
+    },
+    {
+      "timestamp_ms": 3119,
+      "source_id": 103,
+      "event_code": 171,
+      "metric_value": 2850,
+      "category": 11,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 3253,
+      "source_id": 103,
+      "event_code": 168,
+      "metric_value": 2789,
+      "category": 11,
+      "severity": 0,
+      "critical": 1,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 3379,
+      "source_id": 103,
+      "event_code": 237,
+      "metric_value": 2772,
+      "category": 11,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 2
+    },
+    {
+      "timestamp_ms": 3495,
+      "source_id": 103,
+      "event_code": 237,
+      "metric_value": 2795,
+      "category": 11,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 2
+    },
+    {
+      "timestamp_ms": 3624,
+      "source_id": 103,
+      "event_code": 215,
+      "metric_value": 2777,
+      "category": 11,
+      "severity": 1,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 3701,
+      "source_id": 103,
+      "event_code": 144,
+      "metric_value": 2778,
+      "category": 11,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 1
+    },
+    {
+      "timestamp_ms": 3793,
+      "source_id": 102,
+      "event_code": 215,
+      "metric_value": 1201,
+      "category": 11,
+      "severity": 2,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 3938,
+      "source_id": 102,
+      "event_code": 169,
+      "metric_value": 1194,
+      "category": 11,
+      "severity": 2,
+      "critical": 0,
+      "record_flags": 1
+    },
+    {
+      "timestamp_ms": 4068,
+      "source_id": 102,
+      "event_code": 192,
+      "metric_value": 1216,
+      "category": 11,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 4192,
+      "source_id": 102,
+      "event_code": 142,
+      "metric_value": 1220,
+      "category": 11,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 3
+    },
+    {
+      "timestamp_ms": 4322,
+      "source_id": 102,
+      "event_code": 112,
+      "metric_value": 1184,
+      "category": 11,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 2
+    },
+    {
+      "timestamp_ms": 4427,
+      "source_id": 102,
+      "event_code": 126,
+      "metric_value": 1219,
+      "category": 11,
+      "severity": 2,
+      "critical": 1,
+      "record_flags": 1
+    },
+    {
+      "timestamp_ms": 4523,
+      "source_id": 102,
+      "event_code": 149,
+      "metric_value": 1157,
+      "category": 11,
+      "severity": 0,
+      "critical": 0,
+      "record_flags": 0
+    }
+  ]
+}
