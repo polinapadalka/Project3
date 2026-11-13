@@ -1,0 +1,25 @@
+{
+  "runs": [
+    {
+      "seed": 1,
+      "valid_macro_f1": 0.8981474435328037,
+      "final_loss": 0.13579642489387064
+    },
+    {
+      "seed": 2,
+      "valid_macro_f1": 0.9049902636960626,
+      "final_loss": 0.13050747525417833
+    },
+    {
+      "seed": 3,
+      "valid_macro_f1": 0.9011174424868088,
+      "final_loss": 0.12650803040017713
+    }
+  ],
+  "chosen_seed": 2,
+  "valid_macro_f1": 0.9049902636960626,
+  "session_macro_f1": 0.8887089704117971,
+  "F1_min": 0.56,
+  "baseline_majority": 0.293,
+  "baseline_random": 0.3119
+}
